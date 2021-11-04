@@ -1,0 +1,10 @@
+console.warn("ADVERTENCIA , DETENTE PARECE QUE ALGUIEN TE INDICO ALGO QUE NO ES APROPIADO ☹");
+console.error("Failed to load resource: the server responded with a status of 404 (Not Found)");
+console.error("Failed to load resource: the server responded with a status of 404 (Not Found)");
+console.error("Failed to load resource: the server responded with a status of 404 (Not Found)");
+console.error("Failed to load resource: the server responded with a status of 404 (Not Found)");
+console.error("Failed to load resource: the server responded with a status of 404 (Not Found)");
+console.warn("ADVERTENCIA , DETENTE PARECE QUE ALGUIEN TE INDICO ALGO QUE NO ES APROPIADO ☹");
+console.warn("ADVERTENCIA , DETENTE PARECE QUE ALGUIEN TE INDICO ALGO QUE NO ES APROPIADO ☹");
+console.warn("ADVERTENCIA , DETENTE PARECE QUE ALGUIEN TE INDICO ALGO QUE NO ES APROPIADO ☹");
+console.warn("ADVERTENCIA , DETENTE PARECE QUE ALGUIEN TE INDICO ALGO QUE NO ES APROPIADO ☹");
