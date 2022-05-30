@@ -1,14 +1,224 @@
-<html>
+<html lang="en">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Comunity Blogs┃</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comunity Blogs┃Novedades</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
 </head>
 <body onload="myFunction()" style="margin:0;">
+    <nav>
+        <div class="mobile">
+            <div class="header">
+              <div class="logo">Comunity Blogs</div>
+            </div>
+            <div class="links">
+              <a href="index.html">Principal</a>
+              <a href="nvds.html">Novedades</a>
+              <a href="iimmgs.html">Imagenes</a>
+              <a href="iimmgs.html">Juegos</a>
+              <a href="gmss.html">videos</a>
+              <a href="gmss.html">Buscar</a>
+            </div>
+          </div>
+          <div class="desktop">
+            <div class="logo">Comunity Blogs</div>
+    
+            <div class="primary">
+              <a href="index.html">Principal</a>
+              <a href="nvds.html">Novedades</a>
+              <a href="mssc.html">Musica</a>
+              <a href="iimmgs.html">Juegos</a>
+            </div>
+    
+            <div class="secondary full">
+              <a href="gmss.html">Videos</a>
+              <a href="gmss.html">Buscar</a>
+            </div>
+            <div class="secondary mini">
+              <a href="#"></a>
+              <div class="submenu">
+              <a href="gmss.html">Buscar</a>
+              </div>
+            </div>
+          </div>
+    </nav>
+    <style>
+        body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  nav {
+    background-color: gray;
+    color: white;
+    width: 100%;
+  }
+  nav .mobile {
+    display: none;
+  }
+  
+  nav .logo {
+    min-width: 250px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 20px 25px;
+  }
+  
+  nav a:hover {
+    color: black;
+    background-color: rgb(191, 202, 206);
+  }
+  
+  nav .desktop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  nav .desktop .primary,
+  nav .desktop .secondary {
+    display: flex;
+  }
+  
+  nav .secondary.full {
+  }
+  
+  nav .secondary.mini {
+    display: none;
+  }
+  
+  @media screen and (max-width: 894px) {
+    nav .logo {
+      min-width: 100px;
+    }
+  
+    nav .secondary.full {
+      display: none;
+    }
+  
+    nav .secondary.mini {
+      display: block;
+    }
+  
+    nav .secondary.mini .submenu {
+      position: absolute;
+      display: none;
+    }
+  }
+  
+  @media screen and (max-width: 516px) {
+    nav .desktop {
+      display: none;
+    }
+  
+    nav .mobile {
+      display: block;
+    }
+  
+    nav .mobile .header {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+    }
+  
+    nav .mobile .header .logo {
+      flex: 1;
+      text-align: center;
+    }
+  
+    nav .mobile .header .more button {
+      padding: 20px;
+      cursor: pointer;
+      background-color: transparent;
+      border: none;
+      color: white;
+      font-size: 16px;
+    }
+    nav .mobile .header .more button:hover {
+      background-color: white;
+      color: black;
+    }
+  }
+    </style>
 <div id="loader"></div>
 <div style="display:none;" id="myDiv" class="animate-bottom">
-  <h2>UPS!</h2>
-  <p>lo lamento lo que estas buscando no esta disponible :(..</p>
-  <p>By: Comunity Blogs</p>
+<div class="container-comments">
+    <div class="comments">
+               
+        
+        <div class="info-comments">
+           
+            <div class="header">
+                <h4>Comunity Blogs</h4>
+                <h5>25/05/2022</h5>
+            </div>
+            
+            <p>Bienvenido a la seccion de novedades e aqui nosotros subamos cosas de noticia por lo tanto nosotros les mandamos mensaje en privado de las nuevas actualizaciones pero pronto se añadiran nuevas cosas mis estimados usuarios.</p>
+            
+        </div>
+        
+    </div>
+</div>
+<div class="container-comments">
+    <div class="comments">
+               
+        
+        <div class="info-comments">
+           
+            <div class="header">
+                <h4>Comunity Blogs</h4>
+                <h5>26/05/2022</h5>
+            </div>
+            
+            <p>Estamos desarrollando los mini Juegos es posible que dentro de meses esten listo pero nosotros añadiremos en el 2023 lo que queda pendiente en nuestra lista de objectivo que tenga una bonita semana.</p>
+            
+        </div>
+        
+    </div>
+</div>
+<div class="container-comments">
+    <div class="comments">
+               
+        
+        <div class="info-comments">
+           
+            <div class="header">
+                <h4>Comunity Blogs</h4>
+                <h5>27/05/2022</h5>
+            </div>
+            
+            <p>Nosotros estamos anciosos de las nuevas actualizaciones , pero lo que pasa es que uno de los moderadores se imaginan de los cambios de lo que se pueda dar en aquel entoce no se sabe de lo que se viene que sera??.</p>
+            
+        </div>
+        
+    </div>
+</div>
+<div class="container-comments">
+  <div class="comments">
+             
+      
+      <div class="info-comments">
+         
+          <div class="header">
+              <h4>Comunity Blogs</h4>
+              <h5>29/05/2022</h5>
+          </div>
+          
+          <p>Wao creo que nos estamos forzando pero lo mas loco esque este proyecto tenga un desenlace para una nueva iniciativa de muchos objectivo por la cual tenemos pendiente pese a ellos osea las categoria pendiente.</p>
+          
+      </div>
+      
+  </div>
+</div>
 </div>
 <style>
   #loader {
@@ -59,17 +269,57 @@
     text-align: center;
   }
 </style>
+<style>
+    .container-comments, 
+    .container-comments-request{
+        margin-top: 17px;
+    }
+    
+    .container-comments-request{
+        margin-left: 100px;
+    }
+    
+    .comments,
+    .comments-request{
+        display: flex;
+    }
+    
+    .info-comments,
+    .info-comments-request{
+        margin-left: 3px;
+        background: #d4d3d3;
+        transition: all 300ms;
+        margin-top: 10px;
+        border-bottom: 3px solid rgb(15, 15, 15);
+    }
+    
+    
+    .info-comments .header,
+    .info-comments-request .header{
+        display: flex;
+        justify-content: space-between;
+        padding: 5px;
+        background: #b2c1c7;
+        color: rgb(255, 255, 255);
+    
+    }
+    
+    .info-comments p,
+    .info-comments-request p{
+        padding: 17px;
+    }
+    </style>
 <script>
-var myVar;
-
-function myFunction() {
-  myVar = setTimeout(showPage, 3000);
-}
-
-function showPage() {
-  document.getElementById("loader").style.display = "none";
-  document.getElementById("myDiv").style.display = "block";
-}
-</script>
+  var myVar;
+  
+  function myFunction() {
+    myVar = setTimeout(showPage, 3000);
+  }
+  
+  function showPage() {
+    document.getElementById("loader").style.display = "none";
+    document.getElementById("myDiv").style.display = "block";
+  }
+  </script>
 </body>
 </html>
